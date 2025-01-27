@@ -12,7 +12,7 @@ import { Card, CardContent } from "@/components/ui/card"
 const testimonials = [
   {
     name: "Mario Achmad Taufik",
-    comment: "Website yang dihasilkan sangat profesional dan sesuai dengan kebutuhan bisnis saya. Terima kasih Z Developer!",
+    comment: "Website yang dihasilkan sangat sesuai dengan kebutuhan bisnis saya. Terima kasih Z Developer!",
     role: "Pengusaha UMKM"
   },
   {

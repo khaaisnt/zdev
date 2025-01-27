@@ -19,6 +19,7 @@ const navItems: NavItem[] = [
   { label: "Beranda", href: "/" },
   { label: "Tentang Kami", href: "/tentang-kami" },
   { label: "Portofolio", href: "/portofolio" },
+  { label: "FAQ", href: "/faq" },
 ]
 
 export default function Navbar() {
@@ -41,7 +42,7 @@ export default function Navbar() {
   }, [])
 
   return (
-    <header className={`sticky px-5 top-0 z-50 w-full flex justify-between items-center bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 transition-shadow ${scrolled ? 'shadow-md' : ''}`}>
+    <header className={`sticky container mx-auto px-5 top-0 z-50 w-full flex justify-between items-center bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 transition-shadow ${scrolled ? 'shadow-md' : ''}`}>
       <div className="flex h-16 items-center">
         <Link href="/" className="flex items-center space-x-2">
           <Image src={Logo || "/placeholder.svg"} alt="ZDev Logo" width={200} height={200} className="h-8 w-full" />

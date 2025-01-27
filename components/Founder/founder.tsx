@@ -4,32 +4,32 @@ const founders = [
   {
     name: "Ahmad Haidar E.",
     role: "UI/UX Designer",
-    image: "/Aziz.JPG",
+    image: "/Haidar.jpg",
   },
   {
     name: "Rizq Valeant S.",
     role: "Team Leader",
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/Valen.jpg",
   },
   {
     name: "Moh. Abdul Aziz",
     role: "Graphic Designer",
-    image: "/Aziz.JPG",
+    image: "/Aziz.jpg",
   },
   {
     name: "Yahya Az-Zyahabi",
     role: "BackEnd Developer",
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/Yahya.jpg",
   },
   {
     name: "Rakha Adrian",
     role: "FrontEnd Developer",
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/Rakha.jpg",
   },
   {
     name: "Shofiyulloh Kamil",
     role: "Machine Learning Engineer",
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/Kale.jpg",
   },
 ]
 
@@ -59,7 +59,7 @@ export default function FounderSection() {
 
               {/* Image Container */}
               <div className="rounded-2xl border border-gray-200 overflow-hidden">
-                <div className="relative aspect-[4/3] overflow-hidden">
+                <div className="relative aspect-[4/4] overflow-hidden">
                   <Image
                     src={founder.image || "/placeholder.svg"}
                     alt={founder.name}
