@@ -76,7 +76,7 @@ export default function TestimonialSection() {
                           </span>
                         </div>
                         <blockquote className="text-gray-700 text-lg mb-4">
-                          "{testimonial.comment}"
+                            &quot;{testimonial.comment}&quot;
                         </blockquote>
                         <div className="space-y-1">
                           <h3 className="text-primary font-semibold">

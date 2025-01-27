@@ -1,5 +1,4 @@
 import {
-  Palette,
   Globe2,
   Shield,
   Zap,
