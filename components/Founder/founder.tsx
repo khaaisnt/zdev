@@ -14,7 +14,7 @@ const founders = [
   {
     name: "Moh. Abdul Aziz",
     role: "Graphic Designer",
-    image: "/Aziz.jpg",
+    image: "/Azizpp.jpg",
   },
   {
     name: "Yahya Az-Zyahabi",
